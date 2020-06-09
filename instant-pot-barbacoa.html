@@ -4,23 +4,42 @@
         <script src = "https://kit.fontawesome.com/c766ea6538.js" crossorigin = "anonymous"></script>
         <meta charset = "UTF-8">
         <title>Greenleaf Cookbook - Instant Pot Barbacoa</title>
+        <link rel = "stylesheet" href = "style2.css">
     </head>
     <body>
-        <header id = "Top">
-            <a href = "index.html" aria-label = "Go Home"><i class="fas fa-home fa-3x"></i></a><br>
-            <h1>Instant Pot Barbacoa</h1>
+        <header id = "header">
+            <i class ="fas fa-leaf fa-2x" id = "logo-left"></i>
+            <h1>Greenleaf Family Cookbook</h1>
+            <nav class = "menu-bar">
+                <a href = "index.html" aria-label = "Go to Home page">Home</a>
+                <span class = "recipes-dropdown">
+                    <button class = "recipes-dropdown-button">Recipes <i class="fas fa-caret-down"></i></button>    
+                    <div class = "recipes-dropdown-content">
+                        <a href = "aloha-burgers.html" aria-label = "Aloha burgers">Aloha Burgers</a>
+                        <a href = "barbacoa-flautas.html" aria-label = "Barbacoa flautas">Barbacoa Flautas</a>
+                        <a href = "chicken-alfredo.html" aria-label = "Chicken alfredo">Chicken Alfredo</a>
+                        <a href = "instant-pot-barbacoa.html" aria-label = "Instant pot barbacoa">Instant Pot Barbacoa</a>
+                        <a href = "minted-cucumber-salad.html" aria-label = "Minted cucumber salad">Minted Cucumber Salad</a>
+                        <a href = "creamy-tortellini-soup.html" aria-label = "Slow Cooker Creamy Tortellini, Spinach and Chicken Soup">
+                            Slow Cooker Creamy Tortellini, Spinach and Chicken Soup</a>
+                    </div>
+                </span>
+                <a href = "XZ" aria-label = "Go to About page">About</a>
+                <a href = "XZ" aria-label = "Go to Contact page">Contact</a>
+            </nav>
         </header>
         <main>
-            <article id = "instant-pot-barbacoa">
-                <img src = "instant-pot-barbacoa.jpg" alt = "Barbacoa tacos" width = "500px"/>
-                <p>Servings: 8-10<br>Prep time:20 minutes<br>Cook time: 1 hour<br>
-                <label for = "instant-pot-barbacoa-Difficulty-meter">Difficulty:</label>
-                <meter id = "instant-pot-barbacoa-Difficulty-meter" min = "0" max = "10" high = "6" value = "7">70%</meter><br>
-                <label for = "instant-pot-barbacoa-Tastiness-meter">Tastiness:</label>
-                <meter id = "instant-pot-barbacoa-Tastiness-meter" min = "0" max = "10" value = "8">80%</meter></p>
-                <h4>Ingredients</h4>
+            <article>
+                <h2 id = "recipe-title">Instant Pot Barbacoa</h2>
+                <p  id = "recipe-summary"><em>Servings: 8-10 | Prep time:20 minutes | Cook time: 1 hour | <label for = "instant-pot-barbacoa-Difficulty-meter">Difficulty:</label>
+                <meter id = "instant-pot-barbacoa-Difficulty-meter" min = "0" max = "10" high = "6" value = "7">70%</meter><label for = "instant-pot-barbacoa-Tastiness-meter"> | Tastiness:</label>
+                <meter id = "instant-pot-barbacoa-Tastiness-meter" min = "0" max = "10" value = "8">80%</meter></em></p>
+                <img src = "instant-pot-barbacoa.jpg" alt = "Barbacoa tacos" width = "500px" id = "recipe-image"/>
+            </article>
+            <section id = "recipe-ingredients">
+                <h4 class = "recipe-detail-header">Ingredients</h4>
                 <h5>Chipotle Sauce</h5>
-                    <table border = "1">
+                    <table>
                         <thead>    
                             <tr>
                                 <th scope = "col">Item</th>
@@ -79,7 +98,7 @@
                         </tbody>
                     </table>
                 <h5>Barbacoa</h5>
-                    <table border = "1">
+                    <table>
                         <thead>
                             <tr>
                                 <th scope = "col">Item</th><th scope = "col">Quantity</th>
@@ -124,58 +143,60 @@
                             </tr>
                         </tbody>
                     </table>
-                <h4>Instructions</h4>
-                <h5>Chipotle Sauce</h5>
-                    <ol>
-                        <li>Add all chipotle sauce ingredients to a food processor or blender, and process until smooth. Set aside.</li>
-                    </ol>
-                <h5>Barbacoa</h5>
-                    <ol>
-                        <li>Trim visible large sections of fat from roast, then cut roast into 6-8 large pieces. Season beef with 1/2 tsp each salt and pepper.</li>
-                        <li>Add vegetable oil to Instant Pot and select "sauté". When hot, add beef and cook for a minute or so on each side, until browned. 
-                            Depending on the size of your beef, you may need to do this in batches.</li>
-                        <li>Remove browned beef to a plate and add onion. Sauté for 2-3 minutes, until soft.</li>
-                        <li>Add in 1 cup beef broth and scrape the bottom of the pot with a wooden spoon to remove any browned bits. Add in tomato paste, green chiles and bay leaves.</li>
-                        <li>Press "Cancel - or Keep Warm/Cancel". Return browned beef to the pot and pour pureed chipotle sauce over the top. Top with both halves of the lime.</li>
-                        <li>Close lid securely and make sure the valve is set to "sealing". Select "Manual" or "Pressure Cook" and adjust the +/- button until it reads 60 minutes.</li>
-                        <li>When finished cooking, carefully turn the valve to "venting" for a quick pressure release. When the steam has all escaped, and the pin has dropped,
-                             remove the lid and discard bay leaves and lime.</li>
-                        <li>Remove beef pieces to a large bowl and shred, discarding any purely fat parts.</li>
-                        <li>Toss shredded beef with as much of the cooking liquid as you'd like.</li>
-                    </ol>
-                <h4>Notes</h4>
-                <h5>To thicken sauce</h5>
-                    <ol>
-                        <li>In a small bowl, stir together 2 Tbsp cornstarch with 3 Tbsp water until smooth. Pour this mixture into the pot with the sauce and select "sauté".</li>
-                        <li>Cook for several minutes, stirring often, until thickened to your tastes.</li>
-                        <li>Toss shredded beef with as much of the thickened sauce as you'd like.</li>
-                    </ol>
-                <h5>To crisp edges</h5>
-                <p>Line a baking sheet with foil, and preheat broiler to high, adjusting oven rack to the upper third position. Spread shredded beef into an even layer, then broil several minutes. 
-                    Stir. Continue broiling and stirring until crisped and charred to your liking.</p>
-                <h5>Recommended toppings</h5>
-                    <ul>
-                        <li>Fresh Cilantro</li>
-                        <li>Squeeze of lime juice</li>
-                        <li>Cotija cheese (or shredded mexican blend cheese)</li>
-                        <li>Quick pickled shallots (mix sliced shallots, juice of a lime, pinch of salt and granulated sugar – let sit in a bowl for 20 minutes)</li>
-                        <li>Avocado</li>
-                        <li>Queso</li>
-                    </ul>
-                <h5>Shredding</h5>
-                <p>Use a Kitchen Aid mixer with the paddle attachment to shred the beef. Put all beef in the mixing bowl, and run for 5-10 seconds (or until pieces are visibly shredded to your liking). 
-                    Faster, cleaner, and more thorough than doing it by hand. Afterwards, comb through the pieces a few times to see if there are any large fat chunks that can be removed. </p>
-                <h5>Slow cooker Instructions</h5>
-                    <ol>
-                        <li>Process sauce ingredients.</li>
-                        <li>Sear beef in a skillet on the stove.</li>
-                        <li>Add all remaining ingredients to slow cooker, top with seared beef, top with chipotle sauce.</li>
-                        <li>Cover and cook on LOW for 8-10 hours, until beef is tender enough to shred easily.</li>
-                    </ol>
+                </section>
+                <section id = "recipe-instructions">
+                    <h4 class = "recipe-detail-header">Instructions</h4>
+                    <h5>Chipotle Sauce</h5>
+                        <ol>
+                            <li>Add all chipotle sauce ingredients to a food processor or blender, and process until smooth. Set aside.</li>
+                        </ol>
+                    <h5>Barbacoa</h5>
+                        <ol>
+                            <li>Trim visible large sections of fat from roast, then cut roast into 6-8 large pieces. Season beef with 1/2 tsp each salt and pepper.</li>
+                            <li>Add vegetable oil to Instant Pot and select "sauté". When hot, add beef and cook for a minute or so on each side, until browned. 
+                                Depending on the size of your beef, you may need to do this in batches.</li>
+                            <li>Remove browned beef to a plate and add onion. Sauté for 2-3 minutes, until soft.</li>
+                            <li>Add in 1 cup beef broth and scrape the bottom of the pot with a wooden spoon to remove any browned bits. Add in tomato paste, green chiles and bay leaves.</li>
+                            <li>Press "Cancel - or Keep Warm/Cancel". Return browned beef to the pot and pour pureed chipotle sauce over the top. Top with both halves of the lime.</li>
+                            <li>Close lid securely and make sure the valve is set to "sealing". Select "Manual" or "Pressure Cook" and adjust the +/- button until it reads 60 minutes.</li>
+                            <li>When finished cooking, carefully turn the valve to "venting" for a quick pressure release. When the steam has all escaped, and the pin has dropped,
+                                remove the lid and discard bay leaves and lime.</li>
+                            <li>Remove beef pieces to a large bowl and shred, discarding any purely fat parts.</li>
+                            <li>Toss shredded beef with as much of the cooking liquid as you'd like.</li>
+                        </ol>
+                    <h4 class = "recipe-detail-header">Notes</h4>
+                    <h5>To thicken sauce</h5>
+                        <ol>
+                            <li>In a small bowl, stir together 2 Tbsp cornstarch with 3 Tbsp water until smooth. Pour this mixture into the pot with the sauce and select "sauté".</li>
+                            <li>Cook for several minutes, stirring often, until thickened to your tastes.</li>
+                            <li>Toss shredded beef with as much of the thickened sauce as you'd like.</li>
+                        </ol>
+                    <h5>To crisp edges</h5>
+                    <p>Line a baking sheet with foil, and preheat broiler to high, adjusting oven rack to the upper third position. Spread shredded beef into an even layer, then broil several minutes. 
+                        Stir. Continue broiling and stirring until crisped and charred to your liking.</p>
+                    <h5>Recommended toppings</h5>
+                        <ul>
+                            <li>Fresh Cilantro</li>
+                            <li>Squeeze of lime juice</li>
+                            <li>Cotija cheese (or shredded mexican blend cheese)</li>
+                            <li>Quick pickled shallots (mix sliced shallots, juice of a lime, pinch of salt and granulated sugar – let sit in a bowl for 20 minutes)</li>
+                            <li>Avocado</li>
+                            <li>Queso</li>
+                        </ul>
+                    <h5>Shredding</h5>
+                    <p>Use a Kitchen Aid mixer with the paddle attachment to shred the beef. Put all beef in the mixing bowl, and run for 5-10 seconds (or until pieces are visibly shredded to your liking). 
+                        Faster, cleaner, and more thorough than doing it by hand. Afterwards, comb through the pieces a few times to see if there are any large fat chunks that can be removed. </p>
+                    <h5>Slow cooker Instructions</h5>
+                        <ol>
+                            <li>Process sauce ingredients.</li>
+                            <li>Sear beef in a skillet on the stove.</li>
+                            <li>Add all remaining ingredients to slow cooker, top with seared beef, top with chipotle sauce.</li>
+                            <li>Cover and cook on LOW for 8-10 hours, until beef is tender enough to shred easily.</li>
+                        </ol>
                 <div class = "Source">    
                     <p><em>Source: <a href = "https://www.thechunkychef.com/ultimate-instant-pot-beef-barbacoa/" target = "_blank" aria-label = "Go to The Chunky Chef blog">The Chunky Chef blog</a></em></p>
                 </div>
-            </article>
+            </section>
         </main>
         <footer>
             <a href = "https://www.facebook.com/cgreenleaf2011/" target = "_blank" aria-label = "Go to Christian's Facebook">

@@ -1,0 +1,147 @@
+#header{
+    display:block;
+    background-color: #22223b;
+    color: #ffffff;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+#logo-left{
+    float: left;
+    color: #698f3f;
+    padding: 15px 15px 15px;
+    margin-bottom: 0px;
+}
+#header h1{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px 15px;
+    margin-bottom: 0px;
+    margin-top: -9px;
+}
+
+.menu-bar {
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #22223b;
+    background-color: #ebebeb;
+    color: #000000;
+}
+  
+.menu-bar a {
+    float: left;
+    font-size: 16px;
+    color: #22223b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.recipes-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.recipes-dropdown .recipes-dropdown-button {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #22223b;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu-bar a:hover, .recipes-dropdown:hover .recipes-dropdown-button {
+    background-color: #364652;
+    color: #ffffff;
+}
+
+.recipes-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+.recipes-dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.recipes-dropdown-content a:hover {
+    background-color: #ddd;
+    color: #22223b;
+}
+
+.recipes-dropdown:hover .recipes-dropdown-content {
+    display: block;
+}
+
+main{
+    margin: 0 auto;
+    width: 800px; 
+}
+
+h2{
+    text-decoration: underline;
+}
+
+#recipe-title{
+    text-align: center;
+}
+
+#recipe-summary{
+    text-align: center;
+}
+#recipe-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.recipe-detail-header{
+    text-decoration: underline;
+    text-align: center;
+}
+table{
+    text-align: center;
+    border: 1px solid #000000;
+    column-width: 400px;
+}
+td{
+    padding: 5px;
+    border: 1px solid #000000;
+    column-width: 400px;
+}
+th{
+    padding: 5px;
+    text-decoration: underline;
+    background-color: #364652;
+    color: white;
+    border: 1px solid #000000;
+    column-width: 400px;
+}
+
+tr:nth-child(even){background-color: #bfc3ba
+}
+
+footer{
+    display:block;
+    background-color: #22223b;
+    color: #ffffff;
+    margin-left: -9px;
+    margin-right: -9px;
+    position: relative;
+    text-decoration: none;
+    padding: 15px 15px 15px;
+}
